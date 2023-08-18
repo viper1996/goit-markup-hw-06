@@ -460,7 +460,7 @@ a:active {
 
 .footer {
     background-color: var(--navyblue);
-    padding: 97px 0 104px 0;
+    padding: 96px 0;
 }
 
 .footer-main-div {
@@ -486,8 +486,7 @@ a:active {
     letter-spacing: 0.03em;
     background-color: var(--navyblue);
     text-transform: uppercase;
-    /* display: inline-block; */
-    
+    /* display: inline-block; */  
 }
 
 .footer-logo-sp {
@@ -543,13 +542,7 @@ a:active {
     fill: var(--cloud);
 }
 
-
 /*-------- footer-email --------*/
-
-
-.footer-email-container {
-    /* margin-right: auto; */
-}
 
 .footer-email-text {
     color: var(--white);
@@ -562,13 +555,17 @@ a:active {
 }
   
   .footer-form {
-    /* display: flex; */
-    gap: 24px;
+    gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
   
   .footer-input {
     background-color: transparent;
-    width: 398px;
+    max-width: 398px;
+    min-width: 290px;
     height: 40px;
     padding: 8px 16px;
     border-radius: 4px;
@@ -579,8 +576,7 @@ a:active {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white);
-    margin-bottom: 16px;
+    color: var(--white);    
   }
   
   .footer-input::placeholder {
