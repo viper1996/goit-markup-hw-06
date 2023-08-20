@@ -33,6 +33,68 @@
                     <li class="header-address-item"><a class="header-address link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
             </address>
+            <button class="menu-btn" data-menu-open>
+                <svg class="menu-btn-icon" width="32" height="22">
+                  <use href="./images/icons.svg#menu-btn    "></use>
+                </svg>
+              </button>
+        </div>      
+        <div class="mob-window-menu is-hidden container" data-menu>
+            <div>
+                <button class="menu-window-btn" type="button" data-menu-close>
+                    <svg class="close-window-icon" width="8" height="8">
+                        <use href="./images/icons.svg#close-black-18dp"></use>
+                    </svg>
+                </button>
+                <div class="menu-mobile">
+                    <div class="menu-top">
+                        <ul class="menu-top-list list">
+                            <li><a class="menu-top-link link menu-current" href="./index.html" >Studio</a></li>
+                            <li><a class="menu-top-link link" href="./portfolio.html" >Portfolio</a></li>
+                            <li><a class="menu-top-link link" href="">Contacts</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="menu-contacts-links">
+                <div class="menu-contacts">
+                    <ul class="menu-contacts-list list">
+                        <li><a class="menu-tel-link link" href="tel:+110001111111" >+11 (000) 111-11-11</a></li>
+                        <li><a class="menu-email-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="menu-links-list list">
+                        <li class="menu-links-item">
+                            <a class="menu-links-link" href="">
+                                <svg class="menu-links-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-links-item">
+                            <a class="menu-links-link" href="">
+                                <svg class="menu-links-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-links-item">
+                            <a class="menu-links-link" href="">
+                                <svg class="menu-links-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-links-item">
+                            <a class="menu-links-link" href="">
+                                <svg class="menu-links-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -96,9 +158,33 @@
             <div class="container">
                 <h2 class="programs-title">What are we doing</h2>
                 <ul class="programs-list list">
-                    <li class="programs-list-item"><img src="./images/img1.jpg" alt="monitor" width="360" height="300"></li>
-                    <li class="programs-list-item"><img src="./images/img2.jpg" alt="tabs on the phone" width="360" height="300"></li>
-                    <li class="programs-list-item"><img src="./images/img3.jpg" alt="phone on the background of a laptop" width="360" height="300"></li>
+                    <li class="programs-list-item">
+                        <img 
+                        srcset="./images/img1.jpg 1x, 
+                        ./images/Rectangle-1-x2-min.jpg 2x"
+                        src="./images/img1.jpg" 
+                        alt="monitor" 
+                        width="360" 
+                        height="300">
+                    </li>
+                    <li class="programs-list-item">
+                        <img 
+                        srcset="./images/img2.jpg 1x, 
+                        ./images/Rectangle-2-x2-min.jpg 2x"
+                        src="./images/img2.jpg" 
+                        alt="tabs on the phone" 
+                        width="360" 
+                        height="300">
+                    </li>
+                    <li class="programs-list-item">
+                        <img 
+                        srcset="./images/img3.jpg 1x, 
+                        ./images/Rectangle-3-x2-min.jpg 2x"
+                        src="./images/img3.jpg" 
+                        alt="phone on the background of a laptop" 
+                        width="360" 
+                        height="300">
+                    </li>
                 </ul>
             </div>
         </section>
@@ -371,7 +457,7 @@
         </div>
     </footer>
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal-window">
             <button class="modal-close-button" type="button" data-modal-close>
                 <svg class="close-icon" width="8" height="8">
@@ -453,6 +539,7 @@
             </form>
         </div>
       </div>
-    <script class="is-hidden" src="./js/modal.js"></script> -->
+      <script class="is-hidden" src="./js/mobile-menu.js"></script>
+      <script class="is-hidden" src="./js/modal.js"></script>
 </body>
 </html>
