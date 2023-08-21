@@ -801,8 +801,10 @@ a:active {
 
 .portfolio-button-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: left;
-    gap: 24px;
+    gap: 16px 24px;
+    margin-bottom: 48px;
 }
 
 .portfolio-button-link {
@@ -839,11 +841,8 @@ a:active {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
+    justify-content: center;
 }
-  
-.img-list-link {
-    width: calc((100% - 48px) / 3);
- }
   
 .img-cover-link {
     text-decoration: none;

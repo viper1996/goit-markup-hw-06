@@ -125,6 +125,14 @@
         text-align: start;
     }
 
+        /* .img-list {
+            flex-wrap: nowrap;
+        } */
+
+    /* .img-list-link {
+        width: calc((100% - 24px) / 2);
+     } */
+
 }
 
 @media screen and (min-width: 1440px) {
