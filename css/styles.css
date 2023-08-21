@@ -804,7 +804,7 @@ a:active {
     flex-wrap: wrap;
     justify-content: left;
     gap: 16px 24px;
-    margin-bottom: 48px;
+    margin-bottom: 48px ;
 }
 
 .portfolio-button-link {

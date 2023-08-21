@@ -125,13 +125,25 @@
         text-align: start;
     }
 
-        /* .img-list {
-            flex-wrap: nowrap;
-        } */
+    /*-------- portfolio --------*/
 
-    /* .img-list-link {
+    .portfolio-button {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+
+    .portfolio-button-list{
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
+    .img-list {
+        justify-content: start;
+    }
+
+    .img-list-link{
         width: calc((100% - 24px) / 2);
-     } */
+    }
 
 }
 
@@ -248,4 +260,25 @@
     .footer-email-container{
         margin-left: 56px;
     }
+
+       /*-------- portfolio --------*/
+
+       .portfolio-button {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .portfolio-button-list{
+        gap: 24px;
+        margin-bottom: 72px;
+    }
+
+    .img-list {
+        justify-content: start;
+    }
+
+    .img-list-link{
+        width: calc((100% - 2 * 24px) / 3);
+    }
+
 }
